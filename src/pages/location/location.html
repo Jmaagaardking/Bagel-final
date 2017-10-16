@@ -1,0 +1,14 @@
+<ion-header>
+	<ion-navbar>
+	  <ion-title>
+	    Location Tracker
+	  </ion-title>
+	</ion-navbar>
+</ion-header>
+
+<ion-content>
+	<!--Tætteste butik fra TypeScript filen-->
+	<h3>Tætteste butik: {{nearestStore}} </h3>
+	<button ion-button full primary (click)="start()">Find nærmeste Bagel-butik</button>
+	<button ion-button full primary (click)="stop()">Stop Tracking</button>
+</ion-content>
